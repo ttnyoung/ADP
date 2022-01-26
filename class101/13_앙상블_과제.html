@@ -14528,10 +14528,10 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="boston%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%A7%91%EA%B0%92%EC%9D%84-%EC%98%88%EC%B8%A1%ED%95%98%EB%8A%94-%EC%95%84%EB%9E%98-3%EA%B0%80%EC%A7%80%EC%9D%98-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%A7%8C%EB%93%A4%EA%B3%A0-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0-%EC%B5%9C%EC%A0%81-%EB%AA%A8%EB%8D%B8%EC%9D%98-%EA%B2%B0%EA%B3%BC%EB%A5%BC-%ED%95%B4%EC%84%9D%ED%95%98%EC%84%B8%EC%9A%94">boston&#45936;&#51060;&#53552;&#47484; &#44032;&#51648;&#44256; &#51665;&#44050;&#51012; &#50696;&#52769;&#54616;&#45716; &#50500;&#47000; 3&#44032;&#51648;&#51032; &#47784;&#45944;&#51012; &#47564;&#46308;&#44256; &#47784;&#45944;&#51012; &#48708;&#44368;&#54616;&#44256; &#52572;&#51201; &#47784;&#45944;&#51032; &#44208;&#44284;&#47484; &#54644;&#49437;&#54616;&#49464;&#50836;<a class="anchor-link" href="#boston%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%A7%91%EA%B0%92%EC%9D%84-%EC%98%88%EC%B8%A1%ED%95%98%EB%8A%94-%EC%95%84%EB%9E%98-3%EA%B0%80%EC%A7%80%EC%9D%98-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%A7%8C%EB%93%A4%EA%B3%A0-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0-%EC%B5%9C%EC%A0%81-%EB%AA%A8%EB%8D%B8%EC%9D%98-%EA%B2%B0%EA%B3%BC%EB%A5%BC-%ED%95%B4%EC%84%9D%ED%95%98%EC%84%B8%EC%9A%94">&#182;</a></h2><h3 id="%EB%B0%B0%EA%B9%85">&#48176;&#44613;<a class="anchor-link" href="#%EB%B0%B0%EA%B9%85">&#182;</a></h3><h3 id="%EB%9E%9C%EB%8D%A4%ED%8F%AC%EB%9E%98%EC%8A%A4%ED%8A%B8">&#47004;&#45924;&#54252;&#47000;&#49828;&#53944;<a class="anchor-link" href="#%EB%9E%9C%EB%8D%A4%ED%8F%AC%EB%9E%98%EC%8A%A4%ED%8A%B8">&#182;</a></h3><h3 id="%EB%B6%80%EC%8A%A4%ED%8C%85">&#48512;&#49828;&#54021;<a class="anchor-link" href="#%EB%B6%80%EC%8A%A4%ED%8C%85">&#182;</a></h3>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[250]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
@@ -14544,62 +14544,6 @@ a.anchor-link {
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/Users/hmc/opt/anaconda3/envs/ADP_Class/lib/python3.7/site-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function load_boston is deprecated; `load_boston` is deprecated in 1.0 and will be removed in 1.2.
-
-    The Boston housing prices dataset has an ethical problem. You can refer to
-    the documentation of this function for further details.
-
-    The scikit-learn maintainers therefore strongly discourage the use of this
-    dataset unless the purpose of the code is to study and educate about
-    ethical issues in data science and machine learning.
-
-    In this special case, you can fetch the dataset from the original
-    source::
-
-        import pandas as pd
-        import numpy as np
-
-
-        data_url = &#34;http://lib.stat.cmu.edu/datasets/boston&#34;
-        raw_df = pd.read_csv(data_url, sep=&#34;\s+&#34;, skiprows=22, header=None)
-        data = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])
-        target = raw_df.values[1::2, 2]
-
-    Alternative datasets include the California housing dataset (i.e.
-    :func:`~sklearn.datasets.fetch_california_housing`) and the Ames housing
-    dataset. You can load the datasets as follows::
-
-        from sklearn.datasets import fetch_california_housing
-        housing = fetch_california_housing()
-
-    for the California housing dataset and::
-
-        from sklearn.datasets import fetch_openml
-        housing = fetch_openml(name=&#34;house_prices&#34;, as_frame=True)
-
-    for the Ames housing dataset.
-    
-  warnings.warn(msg, category=FutureWarning)
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
